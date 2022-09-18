@@ -15,10 +15,13 @@ export default class TodoApp extends Component {
 
         <ul>
             <li>
-                item
+                item <i className="fa-solid fa-trash-can"></i>
             </li>
             <li>
-                item
+                item <i className="fa-solid fa-trash-can"></i>
+            </li>
+            <li>
+                item <i className="fa-solid fa-trash-can"></i>
             </li>
         </ul>
       </div>

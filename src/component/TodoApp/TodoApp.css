@@ -5,9 +5,11 @@ body{
 }
 
 .input-section{
-    background-color: #ececec;
+    background-color: #055565;
     padding: 18px;
     border-radius: 10px;
+    box-shadow:0 7px 6px #0000003d;
+
 }
 
 .todo-container{
@@ -21,16 +23,19 @@ body{
 h1{
     margin:0 ;
     margin-bottom: 15px;
-    color: #ababab;
+    color:#0c7588;
 }
 
 
 .input-section input{
     border-radius: 5px;
-    border: 1px solid rgb(226, 226,226); /* blenging color technique is called neomorphisum*/
+    border: 1px solid #106879; /* blenging color technique is called neomorphisum*/
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    background-color: #055565;
+    outline:none ;
+    color: #08869e;
 }
 
 ul{
@@ -40,15 +45,22 @@ ul{
 }
 
 input::placeholder{
-    color: silver;
+    color: #08869e;
 }
 
 ul li{
     list-style: none;
-    background-color: white;
+    background-color: #055565;
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 10px;
-    color: gray;
+    color: #08869e;
+    box-shadow: 0 4px 6px #00000866;
+    display: flex;
 
+}
+
+ul li i{
+    text-align: right;
+    flex: 1;
 }
