@@ -1,15 +1,8 @@
 import TodoApp from "./component/TodoApp/TodoApp";
+import  React from "react";
 
 
-function App() {
-  return (
-    <div className="App">
-     <TodoApp/>
-        
-        
-        
-    </div>
-  );
-}
+ export default ()=> <TodoApp/>;
+      
 
-export default App;
+
