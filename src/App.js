@@ -1,8 +1,21 @@
 import TodoApp from "./component/TodoApp/TodoApp";
 import  React from "react";
 
+ export default ()=> {
+    return(
 
- export default ()=> <TodoApp/>;
+                
+            
+                
+               <div>
+                <TodoApp/>
+               </div>
+            
+
+        
+        
+    )
+ };
       
 
 
